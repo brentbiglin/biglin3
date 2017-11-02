@@ -147,7 +147,7 @@ img.portrait {
   border: 3px solid #715ACE;
 }
 @media (min-width: 1px)
-  and (max-width: 1155px) {
+  and (max-width: 1400px) {
 blockquote {
   border-left: .1em solid #715ACE;
   border-top: .1em solid #715ACE;
@@ -169,6 +169,9 @@ img {
 }
 img.testimonial, img.inline, img.portrait, ul {
   margin: 1em auto;
+}
+img.portrait {
+  width: 500px;
 }
 img.testimonial {
   top: auto;
