@@ -148,12 +148,14 @@ blockquote {
   border-top: .1em solid #715ACE;
   border-bottom: 0;
   padding: .3em 0 .3em .3em;
+  margin: 2em auto;
 }
 blockquote.testimonial {
   border-left: .1em solid #715ACE;
   border-top: .1em solid #715ACE;
   border-bottom: 0;
   padding: .3em 0 .3em .3em;
+  margin: 2em auto;
 }
 img {
   margin: 0 1em 3em 1em;
@@ -166,11 +168,15 @@ img.testimonial {
 img.portrait {
   margin: 1em auto 1em auto;
 }
+img.testimonial {
+  margin: 1em 2em 1em auto;
+}
 footer p {
   font-size: 2em;
 }
 p {
   font-size: 2em;
+  margin: 2em auto;
 }
 nav {
   font-size: 2.5em;
