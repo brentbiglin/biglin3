@@ -41,7 +41,7 @@ footer a {
 nav {
   font-size: 1.3em;
   margin: 2em 0 2em 15%;
-  font-weight: 100;
+  font-weight: 300;
 }
 nav a {
   text-decoration: none;
@@ -78,13 +78,13 @@ p {
   font-size: 1.3em;
   line-height: 1.5em;
   margin: 1em .5em 1em .5em;
-  font-weight: 100;
+  font-weight: 300;
 }
 ul {
   font-size: 1.5em;
   line-height: 1.3em;
   margin: 1em .5em 1em .5em;
-  font-weight: 100;
+  font-weight: 300;
   list-style-type: circle;
 }
 blockquote {
@@ -101,7 +101,7 @@ blockquote {
 blockquote.testimonial {
   font-family: 'Fira Sans', 'Roboto', sans-serif;
   font-size: 1.3em;
-  font-weight: 100;
+  font-weight: 300;
   margin: 1em .5em 1em .5em;
   line-height: 1.3em;
   border-left: .1em solid #715ACE;
