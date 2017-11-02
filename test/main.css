@@ -48,6 +48,9 @@ nav a {
   color: #000;
   margin-right: 1em;
 }
+nav a:hover {
+  border-bottom: 2px solid #64BAD1;
+}
 nav a.current {
   border-bottom: 2px solid #64BAD1;
 }
@@ -99,7 +102,7 @@ blockquote {
   padding: .3em 0 .3em .3em;
 }
 blockquote.testimonial {
-  font-family: 'Fira Sans', 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.3em;
   font-weight: 300;
   margin: 1em .5em 1em .5em;
@@ -158,18 +161,15 @@ blockquote.testimonial {
   margin: 2em auto;
 }
 img {
-  margin: 0 1em 3em 1em;
-  max-width: 95%;
+  margin: 1em auto;
+  max-width: 100%;
+}
+img.testimonial, img.inline, img.portrait, ul {
+  margin: 1em auto;
 }
 img.testimonial {
-  margin: auto;
-  max-width: 95%;
-}
-img.portrait {
-  margin: 1em auto 1em auto;
-}
-img.testimonial {
-  margin: 1em 2em 1em auto;
+  top: auto;
+  left: auto;
 }
 footer p {
   font-size: 2em;
