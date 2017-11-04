@@ -152,6 +152,9 @@ blockquote.testimonial {
   border-bottom: none;
   border-right: .1em solid #715ACE
 }
+blockquote {
+  border-right: .1em solid #715ACE;
+}
 img {
   margin: 1em auto;
   max-width: 95%;
