@@ -158,7 +158,7 @@ blockquote.testimonial {
 }
 blockquote {
   border-right: .1em solid #715ACE;
-  margin-bottom: 0px;
+  margin: 0px auto;
 }
 img {
   margin: 1em auto;
@@ -167,6 +167,10 @@ img {
 img.right, img.inline, img.portrait, ul {
   margin: 1em auto;
   left: initial;
+}
+img.right {
+  max-width: 95%;
+  width: 560px;
 }
 img.testimonial {
   top: auto;
