@@ -156,7 +156,7 @@ img {
   margin: 1em auto;
   max-width: 95%;
 }
-img.inline, img.portrait, ul {
+img.right, img.inline, img.portrait, ul {
   margin: 1em auto;
 }
 img.testimonial {
@@ -175,7 +175,7 @@ img {
   margin: 1em auto;
   max-width: 95%;
 }
-img.inline, img.portrait, ul {
+img.right, img.inline, img.portrait, ul {
   margin: 1em auto;
 }
 img.testimonial {
