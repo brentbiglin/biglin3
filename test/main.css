@@ -146,27 +146,11 @@ img.portrait {
   border-radius: 3px;
   border: 3px solid #715ACE;
 }
-/*
 @media (min-width: 1px)
   and (max-width: 699px) {
-blockquote {
-  border-left: .1em solid #715ACE;
-  border-top: .1em solid #715ACE;
-  border-bottom: 0;
-  padding: .3em 0 .3em .3em;
-  margin: 2em auto;
-}
-blockquote.testimonial {
-  border-left: .1em solid #715ACE;
-  border-top: .1em solid #715ACE;
-  border-bottom: 0;
-  padding: .3em 0 .3em .3em;
-  margin: 2em auto 0 auto;
-  font-size: 2.5em;
-}
 img {
   margin: 1em auto;
-  max-width: 100%;
+  max-width: 95%;
 }
 img.inline, img.portrait, ul {
   margin: 1em auto;
@@ -179,43 +163,16 @@ img.testimonial {
   left: auto;
   margin: 0 auto;
 }
-footer p {
-  font-size: 2.5em;
-}
 p {
-  font-size: 2.5em;
   margin: 2em auto;
-}
-nav {
-  font-size: 3em;
-}
-ul {
-  font-size: 2.5em;
-}
-h2 {
-  font-size: 2.5em;
 }
 }
 @media (min-width: 700px)
   and (max-width: 1400px) {
-blockquote {
-  border-left: .1em solid #715ACE;
-  border-top: .1em solid #715ACE;
-  border-bottom: 0;
-  padding: .3em 0 .3em .3em;
-  margin: 2em auto;
-}
-blockquote.testimonial {
-  border-left: .1em solid #715ACE;
-  border-top: .1em solid #715ACE;
-  border-bottom: 0;
-  padding: .3em 0 .3em .3em;
-  margin: 2em auto 0 auto;
-  font-size: 1.7em;
 }
 img {
   margin: 1em auto;
-  max-width: 100%;
+  max-width: 95%;
 }
 img.inline, img.portrait, ul {
   margin: 1em auto;
@@ -228,21 +185,8 @@ img.testimonial {
   left: auto;
   margin: 0 auto;
 }
-footer p {
-  font-size: 1.7em;
 }
 p {
-  font-size: 1.7em;
   margin: 2em auto;
 }
-nav {
-  font-size: 2em;
 }
-ul {
-  font-size: 1.7em;
-}
-h2 {
-  font-size: 2em;
-}
-}
-*/
