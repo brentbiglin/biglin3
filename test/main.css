@@ -158,6 +158,7 @@ img {
 }
 img.right, img.inline, img.portrait, ul {
   margin: 1em auto;
+  left: initial;
 }
 img.testimonial {
   top: auto;
@@ -177,6 +178,7 @@ img {
 }
 img.right, img.inline, img.portrait, ul {
   margin: 1em auto;
+  left: initial;
 }
 img.testimonial {
   top: auto;
