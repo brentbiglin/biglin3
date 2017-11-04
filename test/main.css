@@ -75,8 +75,12 @@ h3 {
   font-weight: 600;
   width: 700px;
 }
-p, blockquote, ul {
+blockquote, ul {
   width: 700px;
+  max-width: 95%;
+}
+p {
+  width: 790px;
   max-width: 95%;
 }
 p {
@@ -115,7 +119,7 @@ blockquote.testimonial {
   padding: 1em 1em 1em 1em;
 }
 img.right {
-  width: 400px;
+  width: 380px;
   max-width: 95%;
   position: relative;
   top: 0px;
@@ -147,13 +151,14 @@ img.portrait {
   border: 3px solid #715ACE;
 }
 @media (min-width: 1px)
-  and (max-width: 699px) {
+  and (max-width: 1200px) {
 blockquote.testimonial {
   border-bottom: none;
   border-right: .1em solid #715ACE
 }
 blockquote {
   border-right: .1em solid #715ACE;
+  margin-bottom: 0px;
 }
 img {
   margin: 1em auto;
@@ -172,8 +177,8 @@ p {
   margin: 2em auto;
 }
 }
-@media (min-width: 700px)
-  and (max-width: 1400px) {
+@media (min-width: 1200px)
+  and (max-width: 1100px) {
 }
 img {
   margin: 1em auto;
