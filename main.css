@@ -206,6 +206,16 @@ img.right {
 	margin: 3em auto;
 }
 
+img.right-noborder {
+	width: 190px;
+	max-width: 95%;
+	position: relative;
+	top: 0px;
+	left: 10px;
+	border-radius: 3px;
+	margin: 3em auto;
+}
+
 img.portfolio-right {
 	width: 220px;
 	max-width: 95%;
