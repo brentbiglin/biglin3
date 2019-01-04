@@ -1,13 +1,13 @@
 html {
 	line-height: 1.5em;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 body {
 	margin: auto;
 	width: 100%;
-        background-color: #F2F2F2;
-        color: #201F2C;
+        background-color: #151515;
+        color: aliceblue;
 }
 
 article,
@@ -38,22 +38,22 @@ section {
 
 article a {
 	text-decoration: none;
-	border-bottom: 2px solid #5EC9E3;
-	color: #000;
+	border-bottom: 2px solid darkslateblue;
+	color: aliceblue;
 	font-weight: 700;
 }
 
 section a {
 	text-decoration: none;
-	border-bottom: 2px solid #5EC9E3;
-	color: #000;
+	border-bottom: 2px solid darkslateblue;
+	color: aliceblue;
 	font-weight: 700;
 }
 
 footer a {
 	text-decoration: none;
-	border-bottom: 2px solid #5EC9E3;
-	color: #000;
+	border-bottom: 2px solid darkslateblue;
+	color: aliceblue;
 }
 
 nav {
@@ -64,17 +64,17 @@ nav {
 
 nav a {
 	text-decoration: none;
-	color: #000;
+	color: aliceblue;
 	margin-right: 1em;
 	transition: .3s;
 }
 
 nav a:hover {
-	border-bottom: 2px solid #5EC9E3;
+	border-bottom: 2px solid darkslateblue;
 }
 
 nav a.current {
-	border-bottom: 2px solid #5EC9E3;
+	border-bottom: 2px solid darkslateblue;
 }
 
 h1 {
@@ -82,14 +82,15 @@ h1 {
 	margin: auto auto .3em 15%;
 	font-family: 'Fira Sans', 'Roboto', sans-serif;
 	font-weight: 900;
-	border-bottom: 4px solid #585388;
+    color: #756ABE;
+	border-bottom: 4px solid aliceblue;
         display: inline-block;
         line-height: 0.85;
         text-shadow:
-	    2px 2px white,
-	    2px -2px white,
-	    -2px 2px white,
-	    -2px -2px white;
+	    2px 2px #101015,
+	    2px -2px #101015,
+	    -2px 2px #101015,
+	    -2px -2px #101015;
 }
 
 h2 {
@@ -116,13 +117,13 @@ ul.bio {
 	width: 300px;
 	margin: 1em;
 	list-style-type: none;
-        background-color: #201F2C;
-        color: #F2F2F2;
+        background-color: darkslateblue;
+        color: aliceblue;
         padding-bottom: 1em;
 }
 section.bio {
         width: 100%;
-        background-color: #201F2C;
+        background-color: darkslateblue;
         margin-top: 30px;
 }
 
@@ -154,51 +155,51 @@ ul.contact {
 }
 
 blockquote {
-	font-family: 'Fira Sans', 'Roboto', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 2.5em;
 	font-weight: 600;
 	margin: 2em .5em 3em .5em;
 	line-height: 1.3em;
-	border-left: .1em solid #585388;
-	border-top: .1em solid #585388;
-	border-bottom: .1em solid #585388;
+	border-left: .1em solid darkslateblue;
+	border-top: .1em solid darkslateblue;
+	border-bottom: .1em solid darkslateblue;
 	padding: .3em .3em .6em .6em;
-        background-color: #585388;
-        color: #F2F2F2;
+        background-color: darkslateblue;
+        color: aliceblue;
 }
 
 blockquote.portfolio-left {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Fira Sans Condensed', sans-serif;
 	font-size: 1.3em;
 	font-weight: 400;
 	margin: 2em .5em 3em .5em;
 	line-height: 1.3em;
-	border-left: .1em solid #585388;
-	border-top: .1em solid #585388;
-	border-bottom: .1em solid #585388;
-        background-color: #585388;
-        color: #F2F2F2;
+	border-left: .1em solid darkslateblue;
+	border-top: .1em solid darkslateblue;
+	border-bottom: .1em solid darkslateblue;
+        background-color: darkslateblue;
+        color: aliceblue;
 	padding: 1em;
 }
 
 a.portfolio {
 	border-bottom: none;
 	margin: 1em auto;
-        color: #F2F2F2;
+        color: aliceblue;
 }
 
 blockquote.testimonial {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Fira Sans Condensed', sans-serif;
 	font-size: 1.3em;
 	font-weight: 300;
 	margin: 3em .5em 1em .5em;
 	line-height: 1.3em;
-	border-left: .1em solid #585388;
-	border-top: .1em solid #585388;
-	border-bottom: .1em solid #585388;
+	border-left: .1em solid darkslateblue;
+	border-top: .1em solid darkslateblue;
+	border-bottom: .1em solid darkslateblue;
 	padding: 1em 1em 1em 1em;
-        background-color: #585388;
-        color: #F2F2F2;
+        background-color: darkslateblue;
+        color: aliceblue;
 }
 
 span.quote {
@@ -239,7 +240,7 @@ img.portfolio-right {
 	position: relative;
 	top: 0px;
 	left: -100px;
-	border: 3px solid #000;
+	border: 3px solid aliceblue;
 	border-radius: 3px;
 	margin: 0;
 }
@@ -257,7 +258,7 @@ img.testimonial {
 img.inline {
 	width: 1175px;
 	max-width: 95%;
-	border: 1px solid #000;
+	border: 1px solid aliceblue;
 	position: relative;
 	margin: 3em 0;
 	border-radius: 3px;
@@ -306,10 +307,10 @@ img.portrait {
 @media (min-width: 1px) and (max-width: 1200px) {
 	blockquote.testimonial {
 		border-bottom: none;
-		border-right: .1em solid #585388
+		border-right: .1em solid darkslateblue
 	}
 	blockquote {
-		border-right: .1em solid #585388;
+		border-right: .1em solid darkslateblue;
 		margin: 0px auto;
 		max-width: 95%;
 	}
@@ -318,8 +319,8 @@ img.portrait {
 		margin: 2em .5em 0 .5em;
 		width: 95%;
 		line-height: 1.3em;
-		border-left: .1em solid #585388;
-		border-top: .1em solid #585388;
+		border-left: .1em solid darkslateblue;
+		border-top: .1em solid darkslateblue;
 		border-bottom: none;
 		padding: .3em 0 .3em .3em;
 	}
