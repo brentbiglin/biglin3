@@ -6,8 +6,8 @@ html {
 body {
 	margin: auto;
 	width: 100%;
-        background-color: #151515;
-        color: aliceblue;
+        background-color: white;
+        color: black;
 }
 
 article,
@@ -38,22 +38,22 @@ section {
 
 article a {
 	text-decoration: none;
-	border-bottom: 2px solid darkslateblue;
-	color: aliceblue;
+	border-bottom: 2px solid #F48F7B;
+	color: black;
 	font-weight: 700;
 }
 
 section a {
 	text-decoration: none;
-	border-bottom: 2px solid darkslateblue;
-	color: aliceblue;
+	border-bottom: 2px solid #F48F7B;
+	color: black;
 	font-weight: 700;
 }
 
 footer a {
 	text-decoration: none;
-	border-bottom: 2px solid darkslateblue;
-	color: aliceblue;
+	border-bottom: 2px solid #F48F7B;
+	color: black;
 }
 
 nav {
@@ -64,17 +64,18 @@ nav {
 
 nav a {
 	text-decoration: none;
-	color: aliceblue;
+    font-weight: bold;
+	color: black;
 	margin-right: 1em;
 	transition: .3s;
 }
 
 nav a:hover {
-	border-bottom: 2px solid darkslateblue;
+	border-bottom: 2px solid #F48F7B;
 }
 
 nav a.current {
-	border-bottom: 2px solid darkslateblue;
+	border-bottom: 2px solid #F48F7B;
 }
 
 h1 {
@@ -82,15 +83,15 @@ h1 {
 	margin: auto auto .3em 15%;
 	font-family: 'Fira Sans', 'Roboto', sans-serif;
 	font-weight: 900;
-    color: #756ABE;
-	border-bottom: 4px solid aliceblue;
+    color: #0E989D;
+	border-bottom: 4px solid #F48F7B;
         display: inline-block;
         line-height: 0.85;
         text-shadow:
-	    2px 2px #101015,
-	    2px -2px #101015,
-	    -2px 2px #101015,
-	    -2px -2px #101015;
+	    2px 2px white,
+	    2px -2px white,
+	    -2px 2px white,
+	    -2px -2px white;
 }
 
 h2 {
@@ -160,11 +161,11 @@ blockquote {
 	font-weight: 600;
 	margin: 2em .5em 3em .5em;
 	line-height: 1.3em;
-	border-left: .1em solid darkslateblue;
-	border-top: .1em solid darkslateblue;
-	border-bottom: .1em solid darkslateblue;
+	border-left: .1em solid #0E989D;
+	border-top: .1em solid #0E989D;
+	border-bottom: .1em solid #0E989D;
 	padding: .3em .3em .6em .6em;
-        background-color: darkslateblue;
+        background-color: #0E989D;
         color: aliceblue;
 }
 
@@ -174,10 +175,10 @@ blockquote.portfolio-left {
 	font-weight: 400;
 	margin: 2em .5em 3em .5em;
 	line-height: 1.3em;
-	border-left: .1em solid darkslateblue;
-	border-top: .1em solid darkslateblue;
-	border-bottom: .1em solid darkslateblue;
-        background-color: darkslateblue;
+	border-left: .1em solid #0E989D;
+	border-top: .1em solid #0E989D;
+	border-bottom: .1em solid #0E989D;
+        background-color: #0E989D;
         color: aliceblue;
 	padding: 1em;
 }
@@ -194,11 +195,11 @@ blockquote.testimonial {
 	font-weight: 300;
 	margin: 3em .5em 1em .5em;
 	line-height: 1.3em;
-	border-left: .1em solid darkslateblue;
-	border-top: .1em solid darkslateblue;
-	border-bottom: .1em solid darkslateblue;
+	border-left: .1em solid #0E989D;
+	border-top: .1em solid #0E989D;
+	border-bottom: .1em solid #0E989D;
 	padding: 1em 1em 1em 1em;
-        background-color: darkslateblue;
+        background-color: #0E989D;
         color: aliceblue;
 }
 
