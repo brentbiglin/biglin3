@@ -1,3 +1,7 @@
+# blue accent: #7BC9D0
+# coral: #F48F7B
+# teal: #0E989D
+# purple: #4A3F8A
 html {
 	line-height: 1.5em;
 	font-family: 'Fira Sans Condensed', sans-serif;
@@ -175,10 +179,10 @@ blockquote.portfolio-left {
 	font-weight: 400;
 	margin: 2em .5em 3em .5em;
 	line-height: 1.3em;
-	border-left: .1em solid #0E989D;
-	border-top: .1em solid #0E989D;
-	border-bottom: .1em solid #0E989D;
-        background-color: #0E989D;
+	border-left: .1em solid #4A3F8A;
+	border-top: .1em solid #4A3F8A;
+	border-bottom: .1em solid #4A3F8A;
+        background-color: #4A3F8A;
         color: aliceblue;
 	padding: 1em;
 }
@@ -199,8 +203,8 @@ blockquote.testimonial {
 	border-top: .1em solid #0E989D;
 	border-bottom: .1em solid #0E989D;
 	padding: 1em 1em 1em 1em;
-        background-color: #0E989D;
-        color: aliceblue;
+        background-color: white;
+        color: black;
 }
 
 span.quote {
@@ -241,7 +245,7 @@ img.portfolio-right {
 	position: relative;
 	top: 0px;
 	left: -100px;
-	border: 3px solid aliceblue;
+	border: 3px solid #7BC9D0;
 	border-radius: 3px;
 	margin: 0;
 }
@@ -259,7 +263,7 @@ img.testimonial {
 img.inline {
 	width: 1175px;
 	max-width: 95%;
-	border: 1px solid aliceblue;
+	border: 1px solid #0E989D;
 	position: relative;
 	margin: 3em 0;
 	border-radius: 3px;
