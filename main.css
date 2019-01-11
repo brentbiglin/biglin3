@@ -357,12 +357,17 @@ img.portrait {
 	}
 	p {
 		margin: 2em auto;
+        max-width: 90%;
 	}
 	ul.bio {
 		margin: 1em auto;
 		width: 300px;
 		left: initial;
 	}
+    section.bio {
+        max-width: 95%;
+
+    }
 }
 
 @media (min-width: 1000px) and (max-width: 1200px) {
