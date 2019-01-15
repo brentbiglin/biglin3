@@ -3,6 +3,7 @@
 # Living Coral: #FF6F61
 # teal: #0E989D
 # purple: #4A3F8A
+# Ultra Violet: #5F4B8B
 html {
 	line-height: 1.5em;
 	font-family: 'Fira Sans Condensed', sans-serif;
@@ -131,7 +132,7 @@ section.bio {
         width: 100%;
         background-color: white;
         margin-top: 30px;
-        border: 4px solid #4A3F8A;
+        border: 4px solid #5F4B8B;
 }
 
 p {
@@ -181,9 +182,9 @@ blockquote.portfolio-left {
 	font-weight: 400;
 	margin: 2em .5em 3em .5em;
 	line-height: 1.3em;
-	border-left: .1em solid #4A3F8A;
-	border-top: .1em solid #4A3F8A;
-	border-bottom: .1em solid #4A3F8A;
+	border-left: .1em solid #5F4B8B;
+	border-top: .1em solid #5F4B8B;
+	border-bottom: .1em solid #5F4B8B;
         background-color: white;
         color: black;
 	padding: 1em;
@@ -313,11 +314,11 @@ img.portrait {
 
 @media (min-width: 1px) and (max-width: 1200px) {
 	blockquote.testimonial {
-		border-bottom: none;
-		border-right: .1em solid darkslateblue
+		border-bottom: .1em solid #0E989D;
+		border-right: .1em solid #0E989D;
 	}
 	blockquote {
-		border-right: .1em solid darkslateblue;
+		border-right: .1em solid #0E989D;
 		margin: 0px auto;
 		max-width: 95%;
 	}
@@ -326,9 +327,9 @@ img.portrait {
 		margin: 2em .5em 0 .5em;
 		width: 95%;
 		line-height: 1.3em;
-		border-left: .1em solid darkslateblue;
-		border-top: .1em solid darkslateblue;
-		border-bottom: none;
+		border-left: .1em solid #5F4B8B;
+		border-top: .1em solid #5F4B8B;
+		border-bottom: .1em solid #5F4B8B;
 		padding: .3em 0 .3em .3em;
 	}
 	img {
@@ -347,7 +348,7 @@ img.portrait {
 		width: 560px;
 	}
 	img.portfolio-right {
-		margin: 1em auto;
+		margin: 0 auto;
 		left: initial;
 		max-width: 95%;
 	}
