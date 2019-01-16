@@ -12,21 +12,35 @@ html {
 body {
 	margin: auto;
 	width: 100%;
-        background-color: white;
-        color: black;
+    background-color: white;
+    color: black;
+    font-family: 'Fira Sans Condensed';
 }
-
+hr {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto 75px auto;
+    height: 0;
+    width: 100%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 10px solid #0E989D;
+    border-bottom: 10px solid #5F4B8B;
+}
 article,
 aside,
 footer,
 header,
-nav,
 section {
 	display: block;
 }
 
 footer p {
-	font-size: .7em;
+	font-size: 1em;
 	margin: 3em auto 2em auto;
 	width: 701px;
 }
@@ -39,7 +53,7 @@ section {
 	align-items: center;
 	width: 1175px;
 	max-width: 100%;
-	margin: auto;
+	margin: auto auto 50px auto;
 }
 
 article a {
@@ -63,27 +77,29 @@ footer a {
 }
 
 nav {
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
 	font-size: 1.3em;
-	margin: 2em 0 2em 15%;
 	font-weight: 300;
+    border-top: 4px solid #FF6F61;
+    border-left: 4px solid #FF6F61;
+    border-radius: 4px;
+    z-index: 2;
 }
 
 nav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 8px 16px;
 	text-decoration: none;
     font-weight: bold;
 	color: black;
-	margin-right: 1em;
-	transition: .3s;
 }
-
-nav a:hover {
-	border-bottom: 2px solid #FF6F61;
-}
-
-nav a.current {
-	border-bottom: 2px solid #FF6F61;
-}
-
 h1 {
 	font-size: 3em;
 	margin: auto auto .3em 15%;
@@ -103,7 +119,7 @@ h1 {
 h2 {
 	font-size: 1.5em;
 	font-family: 'Fira Sans', 'Roboto', sans-serif;
-	margin-left: 15%;
+	margin-left: 5%;
 	font-weight: 600;
 }
 
@@ -148,11 +164,12 @@ p {
 }
 
 ul {
-	font-size: 1.5em;
+	font-size: 1.3em;
 	line-height: 1.3em;
 	margin: 1em auto 1em auto;
 	font-weight: 300;
 	list-style-type: circle;
+    font-family: 'Fira Sans Condensed';
 }
 
 ul.contact {
@@ -261,6 +278,7 @@ img.testimonial {
 	left: 10px;
 	border-radius: 3px;
 	border: 3px solid #000;
+    margin-bottom: 100px;
 }
 
 img.inline {
@@ -362,13 +380,14 @@ img.portrait {
         max-width: 90%;
 	}
 	ul.bio {
-		margin: 1em auto;
+		margin: .3em auto;
 		width: 300px;
 		left: initial;
+        border: 4px solid #5F4B8B;
 	}
     section.bio {
         max-width: 95%;
-
+        border: none;
     }
 }
 
@@ -394,7 +413,7 @@ img.portrait {
 	}
 	ul.bio {
 		margin: 1em auto;
-		width: 550px;
+		width: 350px;
 		left: initial;
 	}
 }
