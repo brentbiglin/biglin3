@@ -85,7 +85,7 @@ nav {
 	font-size: 1.3em;
 	font-weight: 300;
     border-top: 4px solid #FF6F61;
-    border-left: 4px solid #FF6F61;
+    border-right: 4px solid #FF6F61;
     border-radius: 4px;
     z-index: 2;
 }
