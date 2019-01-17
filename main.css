@@ -41,7 +41,7 @@ section {
 
 footer p {
 	font-size: 1em;
-	margin: 3em auto 2em auto;
+	margin: 0 auto 3em 3em;
 	width: 701px;
 }
 
@@ -188,21 +188,18 @@ blockquote {
 	border-top: .1em solid #0E989D;
 	border-bottom: .1em solid #0E989D;
 	padding: .3em .3em .6em .6em;
-        background-color: white;
-        color: black;
+    background-color: white;
+    color: black;
 }
-
 blockquote.portfolio-left {
 	font-family: 'Fira Sans Condensed', sans-serif;
 	font-size: 1.3em;
 	font-weight: 400;
-	margin: 2em .5em 3em .5em;
+	margin: 2em auto 3em auto;
 	line-height: 1.3em;
-	border-left: .1em solid #5F4B8B;
-	border-top: .1em solid #5F4B8B;
-	border-bottom: .1em solid #5F4B8B;
-        background-color: white;
-        color: black;
+	border: .1em solid #5F4B8B;
+    background-color: white;
+    color: black;
 	padding: 1em;
 }
 
@@ -259,14 +256,11 @@ img.right-noborder {
 }
 
 img.portfolio-right {
-	width: 220px;
+	width: 75px;
+    float: left;
 	max-width: 95%;
 	position: relative;
-	top: 0px;
-	left: -100px;
-	border: 3px solid #FF6F61;
-	border-radius: 3px;
-	margin: 0;
+	margin: 10px;
 }
 
 img.testimonial {
@@ -337,7 +331,7 @@ img.portrait {
 	blockquote {
 		border-right: .1em solid #0E989D;
 		margin: 0px auto;
-		max-width: 95%;
+		max-width: 85%;
 	}
 	blockquote.portfolio-left {
 		font-weight: 300;
@@ -347,7 +341,7 @@ img.portrait {
 		border-left: .1em solid #5F4B8B;
 		border-top: .1em solid #5F4B8B;
 		border-bottom: .1em solid #5F4B8B;
-		padding: .3em 0 .3em .3em;
+		padding: 1em;
 	}
 	img {
 		margin: 1em auto;
