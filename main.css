@@ -119,6 +119,17 @@ nav a {
 nav a:hover {
     border-left: 4px solid #FF6F61;
 }
+nav a:active {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 8px 16px 8px 8px;
+	text-decoration: none;
+    font-weight: bold;
+	color: black;
+    transition: 0.3s;
+    border-left: 4px solid white;
+}
 h1 {
 	font-size: 3em;
 	margin: auto auto .3em 25%;
