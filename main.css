@@ -385,7 +385,8 @@ img.portrait {
 		padding: 1em;
 	}
     footer p {
-        margin-left: 20%;
+        margin-left: 40%;
+        max-width: 50%;
     }
 	img {
 		margin: 1em auto;
@@ -453,4 +454,8 @@ img.portrait {
 		width: 350px;
 		left: initial;
 	}
+    footer p {
+        margin-left: 15%;
+        max-width: 50%;
+    }
 }
