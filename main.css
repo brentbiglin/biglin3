@@ -349,12 +349,14 @@ figure.prototype {
 }
 
 img.portrait {
-	width: 300px;
+	width: 200px;
 	max-width: 95%;
 	position: relative;
 	margin: 2em 1em 3em 1em;
-	border-radius: 3px;
+	border-radius: 50%;
 	border: 3px solid #585388;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 @media (min-width: 1px) and (max-width: 1200px) {
