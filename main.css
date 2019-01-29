@@ -28,8 +28,8 @@ hr {
     line-height: 0;
     clear: both;
     border: none;
-    border-top: 10px solid #0E989D;
-    border-bottom: 10px solid #5F4B8B;
+    border-top: 5px solid #0E989D;
+    border-bottom: 5px solid #5F4B8B;
 }
 hr.final {
     display: block;
