@@ -99,7 +99,7 @@ nav {
     width: 110px;
 	font-size: 1.3em;
 	font-weight: 300;
-    border: 2px solid forestgreen;
+    border: 1px solid forestgreen;
     border-radius: 2px;
     z-index: 2;
     box-shadow: 0 8px 12px hsla(0, 0%, 0%, 0.2);
