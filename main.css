@@ -223,7 +223,7 @@ blockquote {
 	font-weight: 600;
 	margin: 2em .5em 3em .5em;
 	line-height: 1.3em;
-	border-top: 1px solid lightgrey;
+	border-top: 1px solid gainsboro;
 	padding: .3em .3em .6em .6em;
     background-color: white;
     color: #402523;
@@ -263,7 +263,7 @@ blockquote.testimonial {
 	font-weight: 300;
 	margin: 3em .5em 1em .5em;
 	line-height: 1.3em;
-    border-top: 1px solid lightgrey;
+    border-top: 1px solid gainsboro;
 	padding: 1em 1em 1em 1em;
         background-color: #EFF0EA;
         color: #402523;
@@ -280,7 +280,7 @@ span.endquote {
 	font-weight: 900;
 }
 img {
-    border-top: 1px solid lightgrey;
+    border-top: 1px solid gainsboro;
 }
 img.right {
 	width: 380px;
