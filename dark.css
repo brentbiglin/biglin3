@@ -133,25 +133,51 @@ section.mode-switcher {
 	overflow: hidden;
 	position: absolute;
 	top: 15px;
-	right: 5px;
-	width: 210px;
+	right: 10px;
+	width: 70px;
 }
-button {
-	background-color: black;
-	border: 2px solid gainsboro;
-	margin: auto;
-	border-radius: 2px;
-	font-family: 'Fira Sans', sans-serif;
-	font-size: 12pt;
-	padding: 5px;
-	width: 100px;
-	transition: .3s;
-	font-weight: 600;
-	color: honeydew;
+section.mode-switcher p {
+    font-size: 10pt;
+    font-weight: 600;
+    color: gainsboro;
 }
-button:hover {
-	border: 2px solid springgreen;
+label.switch { 
+    position: relative; 
+    display: inline-block; 
+    width: 60px; 
+    height:34px; 
+} 
+label.switch input { 
+    opacity: 0; 
+    width: 0; 
+    height: 0; 
+} 
+.slider { 
+    position: absolute; 
+    cursor: pointer; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: gainsboro; 
+    transition: .3s; 
 }
+.slider:before { 
+    position: absolute; 
+    content: ""; 
+    height: 26px; 
+    width: 26px; 
+    left: 4px; 
+    bottom: 4px; 
+    background-color: white; 
+    transition: .3s; 
+} 
+    input:checked + .slider { 
+    background-color: green; 
+} 
+    input:checked + .slider:before { 
+    transform: translateX(26px); 
+} 
 h1 {
 	font-size: 3em;
 	margin: auto auto .3em 15%;

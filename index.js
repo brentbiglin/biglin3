@@ -1,15 +1,9 @@
-function switch_style ( css_title )
-{
-	var i, link_tag ;
-	for (i = 0, link_tag =
-document.getElementsByTagName("link") ;
-	i < link_tag.length ; i++ ) {
-		if ((link_tag[i].rel.indexOf( "stylesheet" ) != -1) &&
-			link_tag[i].title) {
-			link_tag[i].disabled = true ;
-			if (link_tag[i].title == css_title) {
-				link_tag[i].disabled = false ;
-			}
-		}
-	}
+function switchTheme() {
+    var checkBox = document.getElementById("switcher");
+    var theme = document.getElementById("theme");
+    if (checkBox.checked == true){
+        document.getElementById("theme").href = "dark.css";
+    } else {
+        document.getElementById("theme").href = "main.css";
+    }
 }
