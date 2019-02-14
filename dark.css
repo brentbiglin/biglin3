@@ -140,6 +140,7 @@ section.mode-switcher p {
     font-size: 10pt;
     font-weight: 600;
     color: gainsboro;
+    margin-top: 2px;
 }
 label.switch { 
     position: relative; 
