@@ -170,11 +170,11 @@ label.switch input {
     width: 26px; 
     left: 4px; 
     bottom: 4px; 
-    background-color: white; 
+    background-color: black; 
     transition: .3s; 
 } 
     input:checked + .slider { 
-    background-color: green; 
+    background-color: springgreen; 
 } 
     input:checked + .slider:before { 
     transform: translateX(26px); 
