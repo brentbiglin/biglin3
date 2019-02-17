@@ -1,9 +1,10 @@
 function switchTheme() {
     var checkBox = document.getElementById("switcher");
-    var theme = document.getElementById("theme");
     if (checkBox.checked == true){
-        document.getElementById("theme").href = "dark.css";
+        document.getElementById("dark-theme").rel = "stylesheet";
+        document.getElementById("main-theme").rel = "alternate stylesheet";
     } else {
-        document.getElementById("theme").href = "main.css";
+        document.getElementById("main-theme").rel = "stylesheet";
+        document.getElementById("dark-theme").rel = "alternate stylesheet";
     }
 }
