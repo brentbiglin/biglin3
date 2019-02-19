@@ -230,6 +230,9 @@ ul.bio {
     border-top: 4px solid springgreen;
     border-radius: 2px;
 }
+svg {
+    fill: gainsboro;
+}
 section.bio {
         width: 100%;
         background-color: black;
@@ -340,8 +343,8 @@ img.right-noborder {
 	position: relative;
 	top: 0px;
 	left: 10px;
-	border-radius: 3px;
 	margin: 3em auto;
+    border: none;
 }
 
 img.portfolio-right {

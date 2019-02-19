@@ -236,6 +236,9 @@ section.bio {
         background-color: white;
         margin-top: 30px;
 }
+svg {
+    fill: #402523;
+}
 p {
 	width: 790px;
 	max-width: 95%;
@@ -345,8 +348,8 @@ img.right-noborder {
 	position: relative;
 	top: 0px;
 	left: 10px;
-	border-radius: 3px;
 	margin: 3em auto;
+    border: none;
 }
 
 img.portfolio-right {
