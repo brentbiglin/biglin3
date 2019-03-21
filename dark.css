@@ -30,7 +30,7 @@ hr {
     line-height: 0;
     clear: both;
     border: none;
-    border-top: 9px solid gainsboro;
+    border-top: 4px solid gainsboro;
 }
 hr.final {
     display: block;
@@ -100,7 +100,7 @@ nav {
 	font-size: 1.3em;
 	font-weight: 300;
     border-radius: 2px;
-    border: 1px solid darkgrey;
+    border: 2px solid steelblue;
     z-index: 2;
     transition: .3s;
 }
@@ -201,7 +201,7 @@ h2 {
 	margin: auto auto .3em 15%;
     padding-left: 10px;
 	font-weight: 600;
-    border-left: 8px solid springgreen;
+    border-left: 4px solid steelblue;
 }
 h2.hero {
     border: none;
@@ -284,7 +284,7 @@ blockquote.portfolio-left {
 	font-weight: 400;
 	margin: 2em auto 3em auto;
 	line-height: 1.3em;
-    border: 1px solid springgreen;
+    border: 2px solid springgreen;
     border-radius: 4px;
     background-color: black;
 	padding: 1em;
