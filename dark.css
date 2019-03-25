@@ -116,7 +116,7 @@ nav a {
     border-left: 2px solid black;
 }
 nav a:hover {
-    border-left: 2px solid springgreen;
+    border-left: 2px solid steelblue;
 }
 nav a:active {
     float: left;
@@ -419,7 +419,7 @@ img.portrait {
     nav {
         top: auto;
         bottom: 0px;
-        border: 2px solid gainsboro;
+        border: 2px solid steelblue;
 	}
 	blockquote {
 		margin: 0px auto;

@@ -116,7 +116,7 @@ nav a {
     border-left: 2px solid white;
 }
 nav a:hover {
-    border-left: 2px solid green;
+    border-left: 2px solid steelblue;
 }
 nav a:active {
     float: left;
@@ -420,7 +420,7 @@ img.portrait {
     nav {
         top: auto;
         bottom: 0px;
-        border: 2px solid green;
+        border: 2px solid steelblue;
 	}
 	blockquote {
 		margin: 0px auto;
